@@ -1,0 +1,160 @@
+
+*{
+	margin:0px;
+	padding: 0px;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+	background:url("cat.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.bodycontainer{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+}
+
+
+.form{
+	width: 33.3vw;
+	height: 100vh;
+	background-color:rgba(34,26,40);
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+/*.imagecontainer{
+	width: 66.6vw;
+}*/
+
+.logo{
+	font-family: 'Lexend Mega', sans-serif;
+	color: #fff;
+	height:20%;
+	font-size: 2em;
+	width: 100%;
+	font-weight: 900;
+
+}
+
+.heading{
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	font-size: 3em;
+}
+
+.letter{
+	color: #1691BE;
+}
+
+.letter:hover{
+	transition: .3s ease-in;
+	color: #B35791;
+}
+
+hr{ 
+	align-self: center;
+	width: 50%;
+	border-color: #1691BE;
+	border-width: 3px;
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+hr:hover{
+	transition: .3s ease-out;
+	width:70%;
+	border-color: #B35791;
+	border-width: 3px;
+}
+
+.inputfield{
+	padding:15px;
+	margin-top: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+	/*margin-bottom: 0.5em;*/
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0);
+	border-color: #1691BE;
+	font-family: 'Lexend Mega', sans-serif;
+	color: #1691BE;
+}
+
+.inputfield:hover{
+	border-color: #B35791;
+}
+
+.rowstuff{
+	display: flex;
+	margin-right: 1em;
+	margin-left: 1em;
+}
+.mini{
+	width: 50%;
+	margin-right: 2%;
+	margin-left: 0px;
+	border-width: 2px;
+}
+
+.aoi{
+	height: 20%;
+}
+
+#name{
+	margin-top: 0px;
+}
+.btn{
+		width: 30%;
+		margin-top: 10%;
+		align-self: center;
+		border-radius: 20px;
+		background-color: #1691BE;
+		cursor: pointer;
+		font-family: 'Lexend Mega', sans-serif;
+		font-size: 1em;
+		font-weight: 900;
+		color: #221A28;
+		border-width: 0px;
+
+}
+
+.btn:hover{
+	width: 50%;
+	cursor: crosshair;
+	transition: 1s ease;
+	background-color:#B35791;
+}
+
+@media screen and (orientation:portrait){
+	.form{
+		width: 100vw;
+		background-color:rgba(34,26,40,0.7);
+	}
+
+	.letter{
+		font-size:2em;
+	}
+
+	hr{
+		clear: both;
+		visibility: hidden;
+	}
+
+	.inputfield{
+		margin-top: 1.5em;
+		margin-left: 1.5em;
+		margin-right: 1.5em;
+		border: 3px solid #1691BE; 
+	}
+
+}
