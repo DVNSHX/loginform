@@ -139,6 +139,7 @@ hr:hover{
 	.form{
 		width: 100vw;
 		background-color:rgba(34,26,40,0.7);
+
 	}
 
 	.letter{
@@ -156,5 +157,14 @@ hr:hover{
 		margin-right: 1.5em;
 		border: 3px solid #1691BE; 
 	}
+	.logo{
+	font-family: 'Lexend Mega', sans-serif;
+	color: #fff;
+	height:20%;
+	font-size: 1.5em;
+	width: 100%;
+	font-weight: 5
+	00;
 
+}
 }
